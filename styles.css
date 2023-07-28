@@ -15,12 +15,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+  }
 
-html {
+  html {
     font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;
-}
+    font-family: "DM Sans", sans-serif;
+  }
 
 header {
     position: relative;
@@ -101,7 +101,7 @@ main {
     background-color: var(--off-white);
 }
 
-.main-exchange-container--title {
+.main-exchange-container {
     width: 100%;
     height: auto;
     padding-top: 80px;
@@ -111,7 +111,76 @@ main {
 
 .main-exchange-container--title {
     width: 90%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container--title {
+    width: 90%;
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
+}
+
+.main-exchange-container .backgroundImg {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('./assets/icons/bitcoin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.main-exchange-container h2 {
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: --var(--black);
+}
+
+.main-exchange-container p {
+    margin-bottom: 30px; 
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
+
+.main-table-container {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.main-table-container--title-table {
+    margin: 0 auto;
+    text-align: start;
+    width: 250px;
+    padding: 0 0 20px 10px;
+}
+
+.main-table-container-body-table {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(infinite, 100%);
+    text-align: left;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    
+}
+
+.main-table-container-body-table div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: solid 0.5px var(--off-white);
 }
