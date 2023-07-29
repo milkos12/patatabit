@@ -153,6 +153,7 @@ main {
 }
 
 .main-table-container {
+    display: grid;
     font-weight: bold;
     font-size: 1.4rem;
 }
@@ -161,7 +162,8 @@ main {
     margin: 0 auto;
     text-align: start;
     width: 250px;
-    padding: 0 0 20px 10px;
+    padding-left: 5px;
+    color: var(--bitcouin-orange);
 }
 
 .main-table-container-body-table {
@@ -183,4 +185,27 @@ main {
     align-items: center;
     padding: 10px;
     border: solid 0.5px var(--off-white);
+    color: var(--grey);
+    font-size: 1.6rem;
+}
+
+.main-table-container-body-table--name {
+    font-weight: 700;
+}
+
+.main-table-container-body-table--price {
+    display: flex;
+    column-gap: 10px;
+    font-weight: 500;
+}
+
+.currency-table--date {
+    
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--soft-orange);
+    width: 250px;
+    height: 30px;
+    padding: 5px;
 }
