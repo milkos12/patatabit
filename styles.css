@@ -144,6 +144,7 @@ main {
     color: --var(--black);
 }
 
+
 .main-exchange-container p {
     margin-bottom: 30px; 
     font-size: 1.4rem;
@@ -153,17 +154,22 @@ main {
 }
 
 .main-table-container {
-    display: grid;
+    display: flex;
     font-weight: bold;
     font-size: 1.4rem;
+    overflow-x: hidden;
+    width: 290px;
+    margin: 0 auto;
+    padding-right: 80px;
 }
 
 .main-table-container--title-table {
     margin: 0 auto;
     text-align: start;
     width: 250px;
-    padding-left: 5px;
+    padding-left: 20px;
     color: var(--bitcouin-orange);
+    margin-right: 50px;
 }
 
 .main-table-container-body-table {
@@ -176,7 +182,7 @@ main {
     height: 250px;
     margin: 0 auto;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 
@@ -208,4 +214,22 @@ main {
     width: 250px;
     height: 30px;
     padding: 5px;
+}
+
+.currency-table--date-2 {
+    background-color: var(--soft-blue);
+}
+
+.main-table-container--title-table-2 {
+    color: var(--secondary-blue);
+}
+
+.main-table-container--arroll-left {
+    align-self: center;
+    transform: rotate(180deg);
+}
+
+.main-table-container--arroll-rigth {
+    
+    align-self: center;
 }
