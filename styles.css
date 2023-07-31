@@ -15,12 +15,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
 
-  html {
+html {
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
-  }
+}
 
 header {
     position: relative;
@@ -32,7 +32,7 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: linear-gradient(207.8deg, var(--warm-black) 16.69%, var(--bitcouin-orange)  100%);
+    background: linear-gradient(207.8deg, var(--warm-black) 16.69%, var(--bitcouin-orange) 100%);
 }
 
 header img {
@@ -146,7 +146,7 @@ main {
 
 
 .main-exchange-container p {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
@@ -154,22 +154,23 @@ main {
 }
 
 .main-table-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    overflow-x: hidden;
     font-weight: bold;
     font-size: 1.4rem;
-    overflow-x: hidden;
-    width: 290px;
+    width: 250px;
     margin: 0 auto;
-    padding-right: 80px;
 }
 
 .main-table-container--title-table {
     margin: 0 auto;
     text-align: start;
+    padding-left: 100px;
     width: 250px;
     padding-left: 20px;
     color: var(--bitcouin-orange);
-    margin-right: 50px;
+
 }
 
 .main-table-container-body-table {
@@ -183,8 +184,9 @@ main {
     margin: 0 auto;
     background-color: #fff;
     border-radius: 10px;
-    
+
 }
+
 
 .main-table-container-body-table div {
     display: flex;
@@ -206,7 +208,7 @@ main {
 }
 
 .currency-table--date {
-    
+
     margin: 20px auto;
     border: none;
     border-radius: 5px;
@@ -224,12 +226,104 @@ main {
     color: var(--secondary-blue);
 }
 
+.main-table-container--bottoms {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-self: center;
+    width: 250px;
+    height: 250px;
+    column-gap: 300px;
+    z-index: 12;
+}
+
 .main-table-container--arroll-left {
     align-self: center;
     transform: rotate(180deg);
 }
 
 .main-table-container--arroll-rigth {
-    
     align-self: center;
+}
+
+.main-product-detail {
+    display: grid;
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.product-deatil--batata-logo {
+    justify-self: center;
+    position: absolute;
+    width: 41px;
+    height: 25px;
+    background-image: url('./assets/icons/batata.svg');
+    top: -10px;
+}
+
+.product-detail-title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.product-detail-title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-whit);
+}
+
+.product-detail-title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-deatil--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-deatil--card .clock {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('./assets/icons/clock.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-card--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-whit);
+}
+
+.product-card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+
 }
