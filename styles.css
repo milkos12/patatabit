@@ -18,6 +18,7 @@
 }
 
 html {
+    scroll-behavior: smooth; 
     font-size: 62.5%;
     font-family: "DM Sans", sans-serif;
 }
@@ -360,4 +361,63 @@ main {
     line-height: 2.6rem;
     color: var(--just-whit);
     text-align: center;
+}
+
+.plans-container--slider {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+
+}
+
+.main-plans-container {
+    width: 100%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.plans--title {
+    margin-bottom: 50px;
+}
+
+.plans--title h2 {
+    margin-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.plans--title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+.plans-container--card div {
+    position: relative;
+}
+.plans-container--card {
+    background-color: var(--just-whit);
+    width: 180px;
+    padding-top: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.plans-container--card .recomendado {
+    position: absolute;
+    background-color: var(--bitcouin-orange);
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--just-whit);    
+    
 }
