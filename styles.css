@@ -379,6 +379,7 @@ main {
     text-align: center;
    
 }
+
 .plans--title {
     margin-bottom: 50px;
 }
@@ -399,18 +400,7 @@ main {
     color: #757575;
 }
 
-.plans-container--card div {
-    position: relative;
-}
-.plans-container--card {
-    background-color: var(--just-whit);
-    width: 180px;
-    padding-top: 50px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.plans-container--card .recomendado {
+.recomendado {
     position: absolute;
     background-color: var(--bitcouin-orange);
     width: 120px;
@@ -418,6 +408,65 @@ main {
     border-radius: 5px;
     font-size: 1.4rem;
     font-weight: bold;
-    color: var(--just-whit);    
+    color: var(--just-whit);   
+    right: 30px;
+    top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.plans-container--card {
+    background-color: var(--just-whit);
+    width: 190px;
+    height: 245px;
+    padding-top: 30px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.plans-container--number {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 6.5rem;
+}
+
+.plans-container--number span {
+    font-size: 1rem;
+    padding-top: 12px;
+}
+
+.plans-container--note {
+    color: #757575;
+    font-weight: 500;
+}
+
+
+.plans-container--slider button {
+    display: flex;
+    width: 140px;
+    height: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1.5px solid var(--bitcouin-orange);
+    border-radius: 3px;
+    font-family: "DM Sans", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0 auto;
+}
+
+.plans-container--slider button span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/icons/orange-right-arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
