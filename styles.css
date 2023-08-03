@@ -418,7 +418,7 @@ main {
     font-size: 1.4rem;
     font-weight: bold;
     color: var(--just-whit);   
-    right: calc(50%);
+    right: calc(23%);
     top: -10px;
     display: flex;
     align-items: center;
