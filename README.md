@@ -1,4 +1,4 @@
-# patatabit 🏠
+# patatabit 🥔
 
 ## Descripción 📝
 patatabit es un proyecto estático diseñado para representar una página web. 
@@ -15,7 +15,7 @@ patatabit es un proyecto estático diseñado para representar una página web.
 ## Estructura de Archivos 📂
 - **index.html**: Página principal del sitio web.
 - **styles.css**: Hoja de estilos CSS para el diseño y la apariencia.
-- **img/**: Carpeta con las imágenes utilizadas en el sitio.
+
 
 ## Instalación y Uso 🚀
 1. Clona el repositorio:
